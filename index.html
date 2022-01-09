@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Link Shortener</title>
+</head>
+<body>
+    <section>
+        <h1>URL Shortener</h1>
+        <form class="form">
+            <label for="link">Paste Link</label>
+            <br>
+            <input type="text" name="link" id="link" placeholder="past your link in here" />
+            <br>
+            <button id="btn">Create Short URL</button>
+        </form>
+        <article>
+            <div>Here is your link</div>
+            <div class="result">
+                <blockquote class="new-link"></blockquote>
+                <i class="fa fa-clipboard" aria-hidden="true" title="copy"></i>
+            </div>
+        </article>
+        <footer>&copy; Sark Seven 2022</footer>
+    </section>
+
+</body>
+<script src="app.js"></script>
+</html>
